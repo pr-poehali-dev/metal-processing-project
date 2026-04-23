@@ -192,7 +192,7 @@ export default function Index() {
           <div className="max-w-3xl">
             <div className="inline-flex items-center gap-2 border border-primary/30 bg-primary/10 text-primary text-xs px-4 py-1.5 mb-8 tracking-widest uppercase animate-fade-up">
               <Icon name="Award" size={12} />
-              Производство с 2006 года
+              Работаем с 2016 года
             </div>
 
             <h1
