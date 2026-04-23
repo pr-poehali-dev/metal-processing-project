@@ -108,7 +108,7 @@ export default function Index() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [activeFilter, setActiveFilter] = useState("Все");
 
-  const filters = ["Все", "Промышленность", "Инфраструктура", "Коммерция", "Строительство"];
+  const filters = ["Все", "Промышленность", "Коммерция", "Строительство"];
 
   const filteredGallery =
     activeFilter === "Все"
