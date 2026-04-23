@@ -175,17 +175,30 @@ export default function Index() {
       </nav>
 
       {/* HERO */}
-      <section
-        className="relative min-h-screen flex items-center grid-bg pt-16"
-        style={{
-          background: "linear-gradient(135deg, #0a0c10 0%, #111520 50%, #0d0f14 100%)",
-        }}
-      >
+      <section className="relative min-h-screen flex items-center pt-16 overflow-hidden">
+        {/* Фоновые изображения */}
+        <div className="absolute inset-0 grid grid-cols-2">
+          <div
+            className="bg-cover bg-center"
+            style={{
+              backgroundImage: `url(https://cdn.poehali.dev/projects/2a937fca-087a-4404-87c2-33f69e91bae5/files/e3f7c576-1273-4fc3-8024-128ecd506af9.jpg)`,
+            }}
+          />
+          <div
+            className="bg-cover bg-center"
+            style={{
+              backgroundImage: `url(https://cdn.poehali.dev/projects/2a937fca-087a-4404-87c2-33f69e91bae5/files/38e6217c-d039-4384-84e7-c0e1ee3718ad.jpg)`,
+            }}
+          />
+        </div>
+        {/* Тёмный оверлей */}
+        <div className="absolute inset-0" style={{ background: "linear-gradient(135deg, rgba(5,10,20,0.88) 0%, rgba(8,15,30,0.82) 50%, rgba(5,10,20,0.88) 100%)" }} />
+        {/* Сетка-паттерн */}
+        <div className="absolute inset-0 grid-bg opacity-40" />
+        {/* Синее свечение по центру */}
         <div
-          className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[400px] rounded-full pointer-events-none"
-          style={{
-            background: "radial-gradient(ellipse, rgba(59,158,255,0.08) 0%, transparent 70%)",
-          }}
+          className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[400px] rounded-full pointer-events-none"
+          style={{ background: "radial-gradient(ellipse, rgba(59,158,255,0.10) 0%, transparent 70%)" }}
         />
 
         <div className="max-w-7xl mx-auto px-6 py-24 relative z-10">
