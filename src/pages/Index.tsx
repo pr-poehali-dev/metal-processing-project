@@ -192,7 +192,7 @@ export default function Index() {
           />
         </div>
         {/* Тёмный оверлей */}
-        <div className="absolute inset-0" style={{ background: "linear-gradient(135deg, rgba(5,10,20,0.88) 0%, rgba(8,15,30,0.82) 50%, rgba(5,10,20,0.88) 100%)" }} />
+        <div className="absolute inset-0" style={{ background: "linear-gradient(135deg, rgba(5,10,20,0.60) 0%, rgba(8,15,30,0.50) 50%, rgba(5,10,20,0.60) 100%)" }} />
         {/* Сетка-паттерн */}
         <div className="absolute inset-0 grid-bg opacity-40" />
         {/* Синее свечение по центру */}
