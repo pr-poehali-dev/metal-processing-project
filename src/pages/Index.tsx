@@ -184,7 +184,7 @@ export default function Index() {
         <div
           className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[400px] rounded-full pointer-events-none"
           style={{
-            background: "radial-gradient(ellipse, rgba(255,122,0,0.08) 0%, transparent 70%)",
+            background: "radial-gradient(ellipse, rgba(59,158,255,0.08) 0%, transparent 70%)",
           }}
         />
 
@@ -376,7 +376,7 @@ export default function Index() {
       <section
         className="py-20 relative overflow-hidden"
         style={{
-          background: "linear-gradient(135deg, #ff7a00 0%, #e55d00 50%, #cc4400 100%)",
+          background: "linear-gradient(135deg, #1a6fc4 0%, #1259a8 50%, #0d4a8f 100%)",
         }}
       >
         <div className="absolute inset-0 opacity-20 pointer-events-none" style={{
@@ -394,7 +394,7 @@ export default function Index() {
             Оставьте заявку и наш инженер свяжется с вами в течение 30 минут
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
-            <button className="flex items-center gap-3 bg-white text-[#cc4400] px-8 py-4 font-semibold tracking-wide hover:bg-white/90 transition-all">
+            <button className="flex items-center gap-3 bg-white text-[#0d4a8f] px-8 py-4 font-semibold tracking-wide hover:bg-white/90 transition-all">
               <Icon name="MessageSquare" size={18} />
               Написать нам
             </button>
