@@ -66,33 +66,33 @@ const SERVICES = [
 
 const GALLERY = [
   {
-    img: "https://cdn.poehali.dev/projects/2a937fca-087a-4404-87c2-33f69e91bae5/files/f7711dec-a1f6-4448-963c-f7fcf150fda8.jpg",
-    title: "Производственный цех",
-    tag: "Промышленность",
-  },
-  {
-    img: "https://cdn.poehali.dev/projects/2a937fca-087a-4404-87c2-33f69e91bae5/files/4eaabe4b-cbdf-4de7-abc3-d20634ddd1fd.jpg",
-    title: "Мостовые конструкции",
-    tag: "Инфраструктура",
-  },
-  {
-    img: "https://cdn.poehali.dev/projects/2a937fca-087a-4404-87c2-33f69e91bae5/files/5bc025ca-a724-49ca-9a44-4b626ec53a0e.jpg",
-    title: "Складской комплекс",
-    tag: "Коммерция",
-  },
-  {
-    img: "https://cdn.poehali.dev/projects/2a937fca-087a-4404-87c2-33f69e91bae5/files/f7711dec-a1f6-4448-963c-f7fcf150fda8.jpg",
-    title: "Заводской корпус",
-    tag: "Промышленность",
-  },
-  {
-    img: "https://cdn.poehali.dev/projects/2a937fca-087a-4404-87c2-33f69e91bae5/files/4eaabe4b-cbdf-4de7-abc3-d20634ddd1fd.jpg",
-    title: "Пролётная ферма",
+    img: "https://cdn.poehali.dev/projects/2a937fca-087a-4404-87c2-33f69e91bae5/files/2393880d-4335-4f7a-82e1-e14c6cb2efa5.jpg",
+    title: "Монтаж ангара",
     tag: "Строительство",
   },
   {
-    img: "https://cdn.poehali.dev/projects/2a937fca-087a-4404-87c2-33f69e91bae5/files/5bc025ca-a724-49ca-9a44-4b626ec53a0e.jpg",
-    title: "Торговый павильон",
+    img: "https://cdn.poehali.dev/projects/2a937fca-087a-4404-87c2-33f69e91bae5/files/0e25c565-ad8d-41a1-9231-f838e3e8916c.jpg",
+    title: "Готовый склад-ангар",
+    tag: "Коммерция",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/2a937fca-087a-4404-87c2-33f69e91bae5/files/8a110050-5d66-47a2-9aa0-030423b4b302.jpg",
+    title: "Металлические изделия",
+    tag: "Промышленность",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/2a937fca-087a-4404-87c2-33f69e91bae5/files/fb710ba9-13d4-4fc9-9915-d8246dfd6134.jpg",
+    title: "Лестница с ограждением",
+    tag: "Промышленность",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/2a937fca-087a-4404-87c2-33f69e91bae5/files/242925e7-9f4c-4549-bccc-27fe0d536ed4.jpg",
+    title: "Сварочные работы",
+    tag: "Строительство",
+  },
+  {
+    img: "https://cdn.poehali.dev/projects/2a937fca-087a-4404-87c2-33f69e91bae5/files/9246a852-ad62-4f3e-b77c-716be8585f18.jpg",
+    title: "Ворота и ограждения",
     tag: "Коммерция",
   },
 ];
