@@ -476,7 +476,7 @@ export default function Index() {
                 </li>
                 <li className="flex items-center gap-2 text-sm text-muted-foreground">
                   <Icon name="MapPin" size={14} className="text-primary" />
-                  Москва, ул. Промышленная, 12
+                  Краснодарский край, г. Новороссийск, ул. Золотая Рыбка, 104
                 </li>
               </ul>
             </div>
