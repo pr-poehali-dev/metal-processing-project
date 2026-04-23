@@ -448,7 +448,7 @@ export default function Index() {
                 Услуги
               </h4>
               <ul className="flex flex-col gap-2">
-                {["Металлоконструкции", "Ангары", "Лестницы", "Монтаж"].map((item) => (
+                {["Металлоконструкции", "Ангары", "Лестницы", "Монтаж", "Металлообработка", "Лазерная резка"].map((item) => (
                   <li key={item}>
                     <a href="#услуги" className="text-muted-foreground hover:text-primary text-sm transition-colors">
                       {item}
