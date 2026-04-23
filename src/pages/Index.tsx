@@ -468,7 +468,7 @@ export default function Index() {
               <ul className="flex flex-col gap-3">
                 <li className="flex items-center gap-2 text-sm text-muted-foreground">
                   <Icon name="Phone" size={14} className="text-primary" />
-                  +7 (800) 000-00-00
+                  +7 (961) 522-93-95
                 </li>
                 <li className="flex items-center gap-2 text-sm text-muted-foreground">
                   <Icon name="Mail" size={14} className="text-primary" />
