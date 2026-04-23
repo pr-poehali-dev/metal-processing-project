@@ -125,7 +125,7 @@ export default function Index() {
               <Icon name="Zap" size={16} className="text-primary-foreground" />
             </div>
             <span className="text-lg font-bold tracking-widest uppercase text-foreground" style={{ fontFamily: "Oswald, sans-serif" }}>
-              Производственная база <span className="text-primary">Игорёк</span>
+              Производственная <span className="text-primary">база</span>
             </span>
           </div>
 
@@ -432,7 +432,7 @@ export default function Index() {
                   className="text-lg font-bold tracking-widest uppercase"
                   style={{ fontFamily: "Oswald, sans-serif" }}
                 >
-                  Производственная база <span className="text-primary">Игорёк</span>
+                  Производственная <span className="text-primary">база</span>
                 </span>
               </div>
               <p className="text-muted-foreground text-sm leading-relaxed max-w-xs">
